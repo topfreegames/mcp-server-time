@@ -4,7 +4,7 @@
 
 ### Language & Runtime
 - **Go 1.23+**: Modern Go with generics and enhanced performance
-- **MCP Go SDK v0.8.0**: Official Model Context Protocol SDK for Go
+- **MCP Go SDK v1.2.0**: Official Model Context Protocol SDK for Go with API stability guarantees
 - **Standard Library**: Leverages Go's excellent built-in capabilities for HTTP, JSON, context, time
 
 ### Core Libraries
