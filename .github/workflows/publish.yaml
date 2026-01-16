@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: docker.io
-  IMAGE_NAME: hspedro/mcp-server-time
+  IMAGE_NAME: tfgco/mcp-server-time
 
 jobs:
   build:
