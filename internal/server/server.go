@@ -53,7 +53,9 @@ func setupMainHandler(cfg *config.Config, mcpServer *mcp.Server, metrics *metric
 
 	streamableHandler := mcp.NewStreamableHTTPHandler(func(r *http.Request) *mcp.Server {
 		return mcpServer
-	}, nil)
+	}, &mcp.StreamableHTTPOptions{
+		Stateless: true,
+	})
 
 	// Register MCP endpoints with metrics
 	mux.Handle("/sse", withMetrics(sseHandler, metrics, logger, "sse"))
