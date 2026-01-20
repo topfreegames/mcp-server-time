@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/hspedro/mcp-server-time/internal/app"
+	"github.com/topfreegames/mcp-server-time/internal/app"
 )
 
 var (

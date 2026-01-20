@@ -10,12 +10,12 @@ import (
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 	"go.uber.org/zap"
 
-	"github.com/hspedro/mcp-server-time/internal/config"
-	"github.com/hspedro/mcp-server-time/internal/logger"
-	"github.com/hspedro/mcp-server-time/internal/metrics"
-	"github.com/hspedro/mcp-server-time/internal/server"
-	timeservice "github.com/hspedro/mcp-server-time/internal/time"
-	"github.com/hspedro/mcp-server-time/internal/tools"
+	"github.com/topfreegames/mcp-server-time/internal/config"
+	"github.com/topfreegames/mcp-server-time/internal/logger"
+	"github.com/topfreegames/mcp-server-time/internal/metrics"
+	"github.com/topfreegames/mcp-server-time/internal/server"
+	timeservice "github.com/topfreegames/mcp-server-time/internal/time"
+	"github.com/topfreegames/mcp-server-time/internal/tools"
 )
 
 // App represents the MCP Time Server application

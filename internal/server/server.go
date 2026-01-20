@@ -10,8 +10,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"go.uber.org/zap"
 
-	"github.com/hspedro/mcp-server-time/internal/config"
-	"github.com/hspedro/mcp-server-time/internal/metrics"
+	"github.com/topfreegames/mcp-server-time/internal/config"
+	"github.com/topfreegames/mcp-server-time/internal/metrics"
 )
 
 // HTTPServer wraps HTTP server functionality
