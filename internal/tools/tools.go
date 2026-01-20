@@ -8,8 +8,8 @@ import (
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 	"go.uber.org/zap"
 
-	"github.com/hspedro/mcp-server-time/internal/metrics"
-	timeservice "github.com/hspedro/mcp-server-time/internal/time"
+	"github.com/topfreegames/mcp-server-time/internal/metrics"
+	timeservice "github.com/topfreegames/mcp-server-time/internal/time"
 )
 
 // RegisterTimeTools registers all time-related tools with the MCP server

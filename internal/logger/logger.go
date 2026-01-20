@@ -6,7 +6,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/hspedro/mcp-server-time/internal/config"
+	"github.com/topfreegames/mcp-server-time/internal/config"
 )
 
 // New creates a new zap logger based on the provided configuration
